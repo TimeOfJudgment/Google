@@ -1,0 +1,165 @@
+html{
+    display: block;
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    display: block
+  }
+
+  header{
+      display: flex;
+      justify-content: space-between;
+  }
+  .dot{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: -4px;
+    opacity: 50%;
+}
+  .dot:hover{
+      opacity: 100%;
+  }
+  .logo{
+
+      width: 15%;
+      height: auto;
+      margin: 50;
+      margin-top: 8%;
+      padding-left: 770px;
+  }
+  .search-buttons{
+      display: flex;
+      justify-content: center;
+  }
+  .sbutton{
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: white;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    margin: 30px 5px 30px 5px;
+    color: #606d64;
+  }
+  .sbutton:hover{
+      border:solid 1px;
+      border-color: #dadada;
+      box-shadow: 0 1px 2px #f2f2f2;
+  }
+  .sbutton:focus{
+      outline: none;
+  }
+  .sbutton:active{
+      border-color: #4285F4;
+  }
+  .name{
+      color: rgb(255, 0, 0);
+      position: fixed;
+      display: block;
+      background-color: #f2f2f2;
+      bottom: 40px;
+      padding: 10px;
+      left: 0px;
+      right: 0px;
+  }
+  .footing{
+      position: fixed;
+      display:flex;
+      justify-content: space-between;
+      background-color: #f2f2f2;
+      bottom: 0;
+      left:0;
+      right:0;
+      padding: 10px;
+  }
+  .search{
+      width: 31.5%;
+      height: 40px;
+      border: none;
+      border: solid 1px;
+      border-radius: 20px;
+      border-color: #e6dddd;
+      margin: auto;
+      margin-top: 2%;
+  }
+  .search:hover{
+      box-shadow: 0 0px 10px #f2f2f2;
+  }
+  .searchbar{
+      position: relative;
+      width:80%;
+      height: 90%;
+      left: 8%;
+      border: none;
+  }
+  .searchbar:focus{
+      outline:none;
+  }
+  a{
+    font-size: smaller;
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  a:hover{
+      text-decoration: underline;
+  }
+  #signin{
+    border-radius: 0;
+    border: none;
+    color: white;
+    padding: 8px;
+    background-color: #4ca8ff;
+  }
+  #signin:hover{
+      box-shadow: 0 1px 2px #f2f2f2;
+  }
+  #signin:active{
+      background-color: #2f60ad;
+  }
+  #signin:focus{
+      outline:none;
+  }
+  hr{
+      margin: 0;
+      height: 1px;
+      background-color: #dadada;
+      border: none;
+      position: fixed;
+      bottom: 39px;
+      left: 0;
+      right: 0;
+  }
+  .glass{
+      position: relative;
+      width: 15px;
+      height: auto;
+      opacity: 50%;
+      top: 2px;
+      left: 20px;
+  }
+  .mic{
+      position: relative;
+      width: 15px;
+      height: auto;
+      top: 5px;
+      right: -8%;
+  }
+  .headright{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 5px;
+  }
+  .polo{
+    text-align: center;
+    font-size: smaller;
+  }
