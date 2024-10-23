@@ -31,9 +31,8 @@ body{
 
       width: 15%;
       height: auto;
-      margin: 50;
       margin-top: 8%;
-      padding-left: 770px;
+      padding-left: 500px;
   }
   .search-buttons{
       display: flex;
