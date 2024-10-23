@@ -29,10 +29,12 @@ body{
   }
   .logo{
 
-      width: 15%;
-      height: auto;
-      margin-top: 8%;
-      padding-left: 500px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+
   }
   .search-buttons{
       display: flex;
